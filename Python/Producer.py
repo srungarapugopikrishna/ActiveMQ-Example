@@ -21,6 +21,7 @@ conn.connect(login=user,passcode=password)
 #     conn.send("/queue/einstein", data, persistent='false')
 
 conn.send("/queue/einstein", data, persistent='false')
+# conn.send("/topic/einstein", "SHUTDOWN", persistent='false')   #To add a topic
 
 conn.disconnect()
 
