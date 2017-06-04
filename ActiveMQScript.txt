@@ -1,0 +1,29 @@
+#ActiveMQ Installation:
+#----------------------
+#Download File:
+wget http://mirror.fibergrid.in/apache/activemq/5.14.5/apache-activemq-5.14.5-bin.tar.gz
+#Unzip:
+tar zxvf apache-activemq-5.14.5-bin.tar.gz
+
+cd apache-activemq-5.14.5/bin
+
+#To run activemq as a Foreground process
+./activemq console
+
+#ActiveMQ Java Hello World:
+http://activemq.apache.org/hello-world.html
+
+#ActiveMQ Python File Download 
+https://github.com/jasonrbriggs/stomp.py
+
+Create a virtual env:
+virtualenv .env
+source .env/bin/activate
+Writing the requirements to a text file:
+pip freeze >requirements.txt
+
+Now run the python file downloaded. 
+
+
+One more link for python and Java ActiveMQ:
+https://www.linkedin.com/pulse/activemq-jms-producers-consumers-java-python-john-curley
