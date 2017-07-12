@@ -1,7 +1,8 @@
 #ActiveMQ Installation:
 #----------------------
 #Download File:
-wget http://mirror.fibergrid.in/apache/activemq/5.14.5/apache-activemq-5.14.5-bin.tar.gz
+# wget http://mirror.fibergrid.in/apache/activemq/5.14.5/apache-activemq-5.14.5-bin.tar.gz  (Old)
+wget http://archive.apache.org/dist/activemq/5.15.0/apache-activemq-5.15.0-bin.tar.gz
 #Unzip:
 tar zxvf apache-activemq-5.14.5-bin.tar.gz
 
